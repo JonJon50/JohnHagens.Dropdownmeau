@@ -1,0 +1,98 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box; color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+p{
+    color: black;
+    font-size: x-large;
+    position: relative; left: 10%;
+}
+
+body {
+  min-height: 100vh;  
+  background: url(/Death_to_stock_photography_Vibrant\ \(10\ of\ 10\).jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #ffffff;
+    box-shadow: 0 5px 10px; 
+    padding: 0px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+ header .p{
+    font-weight: bolder;
+    font-size: 25%;
+    color: black;
+}
+header .navbar ul{
+    list-style: none;
+    }
+
+header .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+header .navbar li a{
+    font-size: 15px;
+    padding: 20px;
+    color: black;
+    display: block;
+
+}
+
+header .navbar ul li a:hover{
+background: green;
+color: #ffffff;
+}
+
+header .navbar ul li ul{
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background: #ffffff;
+    display: none;
+}
+
+header .navbar ul li ul li{
+    width: 100%;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+header .navbar ul li ul li ul{
+    left: 200px;
+    top: 0;
+}
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul{
+    display: initial;
+}
+
+footer{
+    background: black;
+    height: auto;
+    width: 100vw;
+}
+
+footer {
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background: var(--main-gray);
+    border-top: 4px solid var(--main-red);
+  }
+  
+ 
